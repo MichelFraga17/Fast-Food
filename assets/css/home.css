@@ -1,0 +1,49 @@
+
+#home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 4rem;
+    color: var(--color-neutral-1);;
+}
+
+#cta .title span {
+    color: var(--color-primary-6);
+}
+
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    color: var(--color-neutral-1);;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    margin-top: 8rem;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+
+
+
+
